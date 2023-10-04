@@ -1,7 +1,9 @@
+// EXPORTACION NOMBRA
+
 import { useState } from "react";
 
 export const Home = () => {
-  const [counter, setCounter] = useState(0); // [ variable, funcion ]
+  const [counter, setCounter] = useState(0);
   const [darkMode, setDarkMode] = useState(false);
 
   console.log("hola");
